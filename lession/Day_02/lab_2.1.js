@@ -4,6 +4,7 @@ const readline = require("readline-sync");
 let userHeight = Number(readline.question("Input user's height(m): "));
 let userWeight = Number(readline.question("Input user's weight(kg): "));
 let calculatedIBM = userWeight / (userHeight * userHeight);
+calculatedIBM.toFixed(1)
 
 if (calculatedIBM < 18.5) {
     console.log("You are underweight. You should inscrease the weight");
