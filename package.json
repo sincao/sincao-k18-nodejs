@@ -1,0 +1,6 @@
+{
+  "name": "sincao-k18-nodejs",
+  "dependencies": {
+    "readline-sync": "1.4.10"
+  }
+}
